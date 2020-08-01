@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="245sp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:text="Registration Number :- IT19116952"
+            android:textAlignment="center"
+            android:textColor="@color/text"
+            android:textSize="26sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="250px">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="242sp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginTop="250px"
+            android:gravity="center_horizontal"
+            android:text="Name :- Abarna Uthayakumar"
+            android:textAlignment="center"
+            android:textColor="@color/text"
+            android:textSize="26sp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="245sp"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="428dp"
+            android:layout_height="wrap_content"
+            android:text="Batch Name :- Y2S2G08"
+            android:textColor="@color/text"
+            android:textSize="26sp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="250px">
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>
